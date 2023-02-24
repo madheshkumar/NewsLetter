@@ -32,7 +32,7 @@ app.post("/", function (req, res) {
   const jsonData = JSON.stringify(data);
   const options = {
     method: "post",
-    auth: "madhesh:918b4c827523b4cc3f1e35c39f2190fb-us21",
+    auth: "madhesh:7dc145d0b1b66d0a9ac7b2f3cc026921-us21",
   };
   const url = "https://us21.api.mailchimp.com/3.0/lists/ec869f4b29";
 
@@ -62,7 +62,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 // API key
-// 918b4c827523b4cc3f1e35c39f2190fb-us21
+// 7dc145d0b1b66d0a9ac7b2f3cc026921-us21
 
 // List Id
 // ec869f4b29
