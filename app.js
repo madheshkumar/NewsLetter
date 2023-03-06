@@ -1,8 +1,8 @@
-require("dotenv");
 const express = require("express"); //express module
 const bodyParser = require("body-parser"); //body-parser module
 const request = require("request");
 const https = require("https"); //request module
+require('dotenv').config();
 
 const app = express();
 app.use(express.static(__dirname + "/"));
